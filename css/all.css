@@ -1,10 +1,32 @@
-@font-face {
+/* @font-face {
     font-family: 'novecentosanswide';
     src: url('../fonts/novecentosanswide-normal-webfont.eot');
     src: url('../fonts/novecentosanswide-normal-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/novecentosanswide-normal-webfont.woff') format('woff'),
          url('../fonts/novecentosanswide-normal-webfont.ttf') format('truetype'),
          url('../fonts/novecentosanswide-normal-webfont.svg#novecento_sans_widenormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+@font-face {
+    font-family: 'Helvetica';
+    /* src: url('../fonts/novecentosanswide-normal-webfont.eot');
+    src: url('../fonts/novecentosanswide-normal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/novecentosanswide-normal-webfont.woff') format('woff'),
+         url('../fonts/novecentosanswide-normal-webfont.ttf') format('truetype'),
+         url('../fonts/novecentosanswide-normal-webfont.svg#novecento_sans_widenormal') format('svg'); */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Verdana';
+    /* src: url('../fonts/novecentosanswide-normal-webfont.eot');
+    src: url('../fonts/novecentosanswide-normal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/novecentosanswide-normal-webfont.woff') format('woff'),
+         url('../fonts/novecentosanswide-normal-webfont.ttf') format('truetype'),
+         url('../fonts/novecentosanswide-normal-webfont.svg#novecento_sans_widenormal') format('svg'); */
     font-weight: normal;
     font-style: normal;
 }
@@ -154,15 +176,16 @@ a:hover{text-decoration:underline;}
 	top: 5px;
 	position: absolute;
 }
+/* Name in index */
 .logo {
 	text-align:center;
-	font-family: 'novecentosanswide';
+	font-family: 'Verdana';
 	font-weight:bold;
 	color: #fff;
-	font-size: 72px;
+	font-size: 62px;
 	line-height: 74px;
 	display: block;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	margin: 85px 0 23px;
 }
 #nav {
@@ -178,36 +201,38 @@ a:hover{text-decoration:underline;}
 	float: left;
 	padding: 0 0 0 60px;
 }
+/* headers in index */
 #nav ul li:first-child{padding: 0;}
 #nav ul a {
 	color: #aeecc2;
 	font-size: 18px;
-	line-height: 20px;
-	text-transform: uppercase;
-	padding: 0 0 10px;
-	border-bottom: 4px solid #62bb7f;
-	font-family: 'novecentosanswide';
+	line-height: 10px;
+	/* text-transform: uppercase; */
+	padding: 0 0 1px;
+	/* border-bottom: 4px solid #62bb7f; */
+	font-family: 'Verdana';
 	font-weight: normal;
 }
 #nav ul a:hover,#nav ul a.active{
 	color: #fff;
-	border-bottom: 4px solid #fff;
+	border-bottom: 2px solid #fff;
 	text-decoration: none;
-	-webkit-transition: all 0.5s ease-in-out;
--moz-transition: all 0.5s ease-in-out;
--o-transition: all 0.5s ease-in-out;
-transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
 }
+/* Data Scientist in index */
 h2.slogan{
 	display: block;
 	text-align: center;
-	text-transform: uppercase;
-	font-family: 'novecento_sans_widebook';
-	font-size: 30px;
+	/* text-transform: uppercase; */
+	font-family: 'Verdana';
+	font-size: 35px;
 	line-height: 32px;
 	color: #aeecc2;
 	padding: 34px 0 50px 0;
-	background: url(../images/slogan_bg.gif) no-repeat 50% 0;
+	background: no-repeat 50% 0;
 }
 /*main
  */
@@ -221,8 +246,8 @@ h2.slogan{
 #main h2{
 	display: block;
 	text-align: center;
-	text-transform: uppercase;
-	font-family: 'novecento_sans_widebook';
+	/* text-transform: uppercase; */
+	font-family: 'Verdana';
 	font-size: 30px;
 	line-height: 32px;
 	color: #fff;
@@ -320,9 +345,9 @@ h2.slogan{
 .progress li span{
 	background: #50af6f;
 	color: #fff;
-	text-transform:uppercase;
+	/* text-transform:uppercase; */
 	display: block;
-	font-family: 'novecentosanswide';
+	font-family: 'Verdana';
 	font-weight: normal;
 	font-size: 18px;
 	padding: 0 0 0 20px;
@@ -388,10 +413,10 @@ h2.slogan{
 	color: #a4a7ac;
 	font-size: 14px;
 	line-height: 16px;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	padding: 0 0 10px;
 	border-bottom: 4px solid #3b3c3e;
-	font-family: 'novecentosanswide';
+	font-family: 'Verdana';
 	font-weight: normal;
 }
 .sub_nav a:hover,.sub_nav a.active{
@@ -408,11 +433,11 @@ transition: all 0.5s ease-in-out;
 	color: #a4a7ac;
 	font-size: 14px;
 	line-height: 16px;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	margin: 0 22px;
 	padding: 0 0 10px;
 	border-bottom: 4px solid #3b3c3e;
-	font-family: 'novecentosanswide';
+	font-family: 'Verdana';
 	font-weight: normal;
 }
 .sub_nav li:hover,.sub_nav .active {
@@ -478,8 +503,8 @@ transition: all 0.5s ease-in-out;
 	display: block;
 	background: url(../images/bg_white_border.gif) no-repeat 50% 100%;
 	color: #fff;
-	text-transform: uppercase;
-	font-family: 'novecentosanswide';
+	/* text-transform: uppercase; */
+	font-family: 'Verdana';
 	font-weight:bold;
 	font-size: 14px;
 	line-height: 16px;
@@ -494,6 +519,7 @@ transition: all 0.5s ease-in-out;
 	font-size: 15px;
 	line-height: 17px;
 }
+
 /*contact*/
 .clear{clear: both;}
 .images_holder{
@@ -512,10 +538,10 @@ transition: all 0.5s ease-in-out;
 }
 .box_contact span{
 	color: #fff;
-	font-family: 'novecento_sans_widebook';
+	font-family: 'Verdana';
 	font-size: 30px;
 	line-height: 32px;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	display: block;
 	margin: 0 0 55px;
 	padding: 5px 0 18px 80px;
@@ -523,6 +549,10 @@ transition: all 0.5s ease-in-out;
 .box_contact span.email{background: url(../images/icon_email2.png) no-repeat;}
 .box_contact span.phone{background: url(../images/icon_phone.png) no-repeat;}
 .box_contact span.skype{background: url(../images/icon_skype.png) no-repeat;}
+
+
+
+
 /*footer
  */
 #footer {
@@ -583,19 +613,19 @@ transition: all 0.5s ease-in-out;
 }
 .popup_portfolio h3{
 	padding-top:26px;
-	font-family: 'novecentosanswide';
+	font-family: 'Verdana';
 	font-weight:bold;
 	color: #63666a;
 	font-size: 18px;
 	line-height: 18px;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 }
 .popup_portfolio time{
-	font-family: 'novecentosanswide';
+	font-family: 'Verdana';
 	color: #abacaf;
 	font-size: 12px;
 	line-height: 12px;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 }
 .popup_portfolio p{
 	padding: 17px 0 8px;
@@ -719,4 +749,112 @@ transition: all 0.5s ease-in-out;
 		background-size:46px 46px;
 	}
 /* end add	 */
+}
+
+
+body {
+   background-color: #ddd;
+   /* padding: 100px 20px 20px 20px; */
+  }
+
+.social-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -10px;
+
+  &__button {
+    margin: 10px 5px 0;
+  }
+}
+
+$social-button-radius: 70px;
+$social-button-icon-size: 0.4;
+$social-button-background: #fff;
+$social-button-active-color: #fff;
+$social-button-transition-time: 0.3s;
+
+$social-button-colors: (
+  "mail": #0072c6,
+  "facebook": #3b5999,
+  "linkedin": #0077b5,
+  "github": #6e5494,
+  "codepen": #212121,
+  "steam": #7da10e,
+  "snapchat":#eec900,
+  "twitter": #55acee,
+  "instagram": #e4405f,
+  "npmjs": #c12127
+);
+
+.social-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  width: $social-button-radius;
+  height: $social-button-radius;
+  text-decoration: none;
+
+  &__inner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    border-radius: 100%;
+    background: $social-button-background;
+    text-align: center;
+  }
+
+  i,
+  svg {
+    position: relative;
+    z-index: 1;
+    transition: $social-button-transition-time;
+  }
+
+  i {
+    font-size: $social-button-radius * $social-button-icon-size;
+  }
+
+  svg {
+    height: percentage($social-button-icon-size);
+    width: percentage($social-button-icon-size);
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    display: block;
+    width: 0;
+    height: 0;
+    border-radius: 100%;
+    transition: $social-button-transition-time;
+  }
+
+  &:focus,
+  &:hover {
+    color: $social-button-active-color;
+
+    &::after {
+      width: 100%;
+      height: 100%;
+      margin-left: -50%;
+    }
+  }
+
+  @each $name, $color in $social-button-colors {
+    &--#{$name} {
+      color: $color;
+
+      &::after {
+        background: $color;
+      }
+    }
+  }
 }
