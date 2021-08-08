@@ -484,6 +484,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .user-frame {
   width: 90%;
   padding: 3em;
+  padding-right: 2em;
   -webkit-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.13);
   -moz-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.13);
   box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.13);
@@ -616,11 +617,15 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-portfolio,
 #fh5co-blog,
 #fh5co-content-section,
-#fh5co-contact,
-#fh5co-footer {
+#fh5co-contact {
   padding: 7em 0;
   clear: both;
 }
+
+#fh5co-footer {
+  padding-top: 12em;
+}
+
 @media screen and (max-width: 768px) {
   #fh5co-slider,
   #fh5co-about,
@@ -629,9 +634,14 @@ h1, h2, h3, h4, h5, h6, figure {
   #fh5co-portfolio,
   #fh5co-blog,
   #fh5co-content-section,
-  #fh5co-contact,
-  #fh5co-footer {
+  #fh5co-contact {
     padding: 3em 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #fh5co-footer {
+    padding-top: 5em;
   }
 }
 
@@ -670,7 +680,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-heading {
-  margin-bottom: 5em;
+  margin-bottom: 3em;
 }
 .fh5co-heading.fh5co-heading-sm {
   margin-bottom: 2em;
@@ -996,8 +1006,13 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 30px;
   font-size: 20px;
 }
-#fh5co-footer .copyright .block {
+#fh5co-footer .block {
   display: block;
+}
+
+.copyright {
+  margin-bottom: 0em;
+  padding: 0;
 }
 
 .contact-info {
